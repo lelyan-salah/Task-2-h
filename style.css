@@ -1,16 +1,24 @@
 .div{
-    margin: 20px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     padding: 20px;
-    font-family: monospace;
-    font-size: 24PX;
-    font-weight: bold;
-    color: #00698f;
     border-radius: 10px;
     border-width: 1px;
     border-color: #ccc;
     border-style: solid;
+    display: inline-block;
+    background-color: lightgray;
+
 }
-.div .span-text{
+.heading{
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: bold;
+    color: #00698f;
+}
+.span-text{
     text-transform: uppercase;
     font-size: 18px;
     color: #666;
@@ -22,20 +30,27 @@
     border-style: solid;
     border-width: 1px;
     border-color: #ccc;
+    display: block;
 }
-.paragraph p1{
-    border-style: solid dashed solid dashed;
+.p1{
+    border-top-style: solid;
+    border-right-style: dashed;
+    border-bottom-style: solid;
+    border-left-style: dashed;
     border-width: 5px;
     border-color: red;
     text-align: justify;
+    padding:10px;
 }
-paragraph p2{
+.p2{
     line-height: 25px;
     text-align: center;
     font-style: italic;
 }
 .list{
  list-style-type: circle;
- font-size: 18px;
- color: #666;
+}
+.list-item{
+    font-size: 18px;
+    color: #666;
 }
